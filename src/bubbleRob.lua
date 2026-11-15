@@ -3,10 +3,6 @@
 -- Scenario: a classroom after an earthquake. The robot explores the room,
 -- backs away from obstacles, and reports each trapped "survivor" (a pink
 -- cylinder) the first time its ray sensor sees it.
---
--- Behaviour is identical to the originally submitted script
--- (see src/original/bubbleRob_submitted.lua); this version only removes
--- duplication and tightens variable scope.
 
 sim = require 'sim'
 simUI = require 'simUI'
