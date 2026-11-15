@@ -16,7 +16,7 @@ A single classroom with:
 
 - a **collapsed bookshelf** lying across the floor, creating a narrow passage between the entrance and the middle of the room
 - **scattered debris** (overturned desks, chairs and ceiling fragments, modelled as blocks) that forces the robot to find alternate routes
-- **four survivors**, modelled as pink cylinders named `Cate`, `Duc`, `Brandon` and `ThuyVi`
+- **four survivors**, modelled as pink cylinders
 
 | Scene overview | Running, with speed slider and clearance graph |
 | --- | --- |
