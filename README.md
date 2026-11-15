@@ -2,7 +2,7 @@
 
 An autonomous search-and-rescue prototype built in [CoppeliaSim](https://www.coppeliarobotics.com/) by extending the stock **BubbleRob** tutorial robot. The robot explores a classroom damaged by an earthquake, avoids debris, and reports each trapped survivor it finds.
 
-Originally built for WGU course C951 (Introduction to Artificial Intelligence).
+Originally built for **WGU course C951:** Introduction to Artificial Intelligence.
 
 ![Robot exploring the classroom](media/demo.gif)
 
