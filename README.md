@@ -51,7 +51,56 @@ Changes made to the default BubbleRob:
 
 This is the scene hierarchy as it appeared in the demo (screenshot taken from the video, so it is a little soft):
 
-![Scene hierarchy](media/scene-hierarchy.jpg)
+<table>
+<tr>
+<td valign="top" width="260">
+<a href="media/scene-hierarchy.jpg"><img src="media/scene-hierarchy.jpg" alt="Scene hierarchy from the demo video" width="240"></a>
+</td>
+<td valign="top">
+<pre>
+bubbleRob-lua (scene 1)
+├── DefaultCamera
+├── XYZCameraProxy
+├── bubbleRob
+│   ├── Script
+│   ├── sensingNose
+│   │   └── sensor
+│   │       └── Script
+│   ├── leftMotor
+│   │   └── leftWheel
+│   ├── rightMotor
+│   │   └── rightWheel
+│   ├── connection
+│   │   └── slider
+│   ├── graph
+│   └── personSensor
+├── DefaultLights
+├── Floor
+├── 240cmHighWall200cm
+├── 240cmHighWall400cm[0]
+├── 240cmHighWall400cm[1]
+├── 240cmHighWall400cm[2]
+├── 240cmHighWall100cm[0]
+├── 240cmHighWall400cm[3]
+├── 240cmHighWall100cm[1]
+│   └── visible
+├── 80cmHighWall50cm
+│   └── visible
+├── 80cmHighWall100cm
+│   └── visible
+├── door
+├── 80cmHighWallEnd[0]
+├── 80cmHighWallEnd[1]
+├── Cate
+├── Duc
+├── Brandon
+├── ThuyVi
+├── 80cmHighWallEnd[2]
+└── window140cm
+</pre>
+</td>
+</tr>
+</table>
 
 ### Object checklist
 
@@ -102,10 +151,6 @@ The robot also has a vision sensor named `sensor`; its camera view is the small 
 ├── media/                             GIF and screenshots
 └── docs/                              demo video link and notes
 ```
-
-## Demo video
-
-Full walkthrough: _add link here_
 
 ## License
 
