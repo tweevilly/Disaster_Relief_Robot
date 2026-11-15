@@ -35,7 +35,6 @@ Changes made to the default BubbleRob:
 | Graph (`bubbleRob clearance`) | Plots the robot's distance to the nearest obstacle over time. |
 | Speed slider (simUI) | Adjusts motor speed between 50 and 300 deg/s while the simulation runs. |
 
-![Console output showing each survivor reported once](media/console-output.jpg)
 
 ## How it maps to AI concepts
 
